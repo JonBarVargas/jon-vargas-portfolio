@@ -1,0 +1,259 @@
+:root {
+  --primary-color: #354C63;
+  --secondary-color: #1fd8a4;
+  --main-color: #EFDAC7;
+  --black-color: #202124;
+}
+
+* {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; 
+}
+.darkText{
+  color: var(--primary-color);
+}
+.mainColorText{
+  color: var(--main-color);
+}
+.accentColorText{
+  color: #D9594C;
+}
+
+body{
+  background: var(--main-color)
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Press Start 2P', system-ui;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+  gap: 14px;
+  
+  align-items: center;
+}
+
+.main{
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  gap: 14px;
+  display: flex;
+  flex-direction: column;
+}
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+a:hover{
+  opacity: 0.7;
+}
+.navContainer{
+  position: fixed;
+  top: 0;
+  left:0;
+  text-align: center;
+
+  width: 100%;
+  color:#354C63;
+  background-color: #EFDAC7;
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
+  padding-top: 14px;
+  padding-bottom: 10px;
+  padding-left:10%;
+  padding-right: 10%;
+  background-color: #D9594C;;
+  max-width: 100%;
+}
+header{
+  font-size: 1em;
+}
+nav{
+  display:flex;
+  font-size: 1.4em;
+  gap:12px;
+}
+nav a{
+ 
+  cursor: pointer;
+}
+nav a:hover{
+  opacity: 0.7;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+
+
+.nameCard{
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  gap: 24px;
+  padding-top: 48px;
+}
+
+.profilePicContainer{
+  border-radius: 25%;
+  max-width: 114px;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+  
+}
+.profilePicContainer img{
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+}
+.introCard {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.aboutContainer{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  
+  padding: 12px 24px;
+  padding-bottom: 36px;
+}
+
+.aboutContainer a{
+  color: #6A8E7F;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.aboutContainer a:hover{
+  opacity: 0.7;
+}
+
+.projectContainer{
+  display:grid; 
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
+.projectCard {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  
+  justify-content: space-around;
+  background-color: #354C63;
+  color:#EFDAC7;
+  gap: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.projectEntry{
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.projectCard h3{
+  padding-top: 36px;
+}
+
+.projTagContainer{
+  display: flex;
+  flex-direction: row;
+  gap:8px;
+  padding-top: 5%;
+}
+.projTagContainer tag{
+  border-style: dotted;
+  border-radius: 10%;
+  
+  padding: 5px;
+}
+
+.projPublishContainer{
+  padding-top: 10%;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
+}
+.projLinkContainer{
+  display: flex;
+  background-color: #6A8E7F;
+  width: 100%;
+  flex-direction: row;
+  gap: 12px;
+  justify-content: left;
+  padding: 12px 12px 12px 24px;
+}
+.projLinkItem{
+  display: flex;
+  flex-direction: row;
+  gap:8px;
+}
+
+.projImgContainer{
+  display: flex;
+  padding-bottom: 24px;
+  justify-content: center;
+}
+
+.projImgContainer img{
+  
+  max-width: 100%;
+  max-height: 85%;
+}
+
+
+
+
+
+
+@media (min-width: 640px) {
+
+  header button,
+  header input {
+    font-size: 1.2em;
+  }
+
+  p {
+    font-size: 1em;
+  }
+  .rowBox{
+    flex-direction: row !important;
+  }
+  .projectContainer{
+    grid-template-columns: 2fr 2fr;
+
+  }
+}
+.rowBox{
+  display: flex;
+  flex-direction: column ;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  flex-wrap:nowrap !important;
+}
+
+
+footer{
+padding: 24px 24px;
+
+text-align: center;  
+}

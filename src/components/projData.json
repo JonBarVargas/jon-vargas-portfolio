@@ -1,0 +1,22 @@
+{
+    "projects":[
+    { 
+        "projectName": "F.L.O.A.T.",
+        "projDesc": "An A.I. driven detection system to collect water parameters. Using image detection AI a unit gathers images and classifies objects detected in a body of water. This data is then processed and displayed for the customer on a front end application.",
+        "stack": ["php", "aws", "yolo V4"],
+        "liveLink": "",
+        "gitHubLink": "",
+        "date": "APR 02 2022",
+        "picLink": "src/assets/FLOAT_ProjectPoster_Apr1-2022.pdf"
+    },
+    {
+        "projectName": "Shared",
+        "projDesc": "lmao its a gay app",
+        "stack": ["C#", "Unity"],
+        "liveLink": "",
+        "gitHubLink": "",
+        "date": "TBD",
+        "picLink": "src/assets/FLOAT_ProjectPoster_Apr1-2022.pdf"
+    }
+    ]    
+}

@@ -1,0 +1,31 @@
+{
+    "projects":[
+    { 
+        "projectName": "F.L.O.A.T.",
+        "projDesc": "An A.I. driven detection system to collect water parameters. Using image detection AI a unit gathers images and classifies objects detected in a body of water. This data is then processed and displayed for the customer on a front end application.",
+        "stack": ["php", "aws", "yolo V4"],
+        "liveLink": "https://www.youtube.com/watch?v=Vk5-c_v4gMU&ab_channel=HYBELABELS",
+        "gitHubLink": "https://www.youtube.com/watch?v=fDWvOsGM10s&t=282s&ab_channel=%E3%81%99%E3%81%8C%E3%82%8D%E3%81%86",
+        "date": "APR 02 2022",
+        "picLink": "src/assets/FLOAT_ProjectPoster_Apr1-2022.png"
+    },
+    {
+        "projectName": "Shared",
+        "projDesc": "lmao its a gay app",
+        "stack": ["C#", "Unity"],
+        "liveLink": "",
+        "gitHubLink": "https://www.youtube.com/watch?v=rL9Ly1ZkYYk&ab_channel=elijahwoods",
+        "date": "TBD",
+        "picLink": "src/assets/FLOAT_ProjectPoster_Apr1-2022.pdf"
+    },
+    {
+        "projectName": "Component Theatre",
+        "projDesc": "An exploration of modular theatre to explore the concept of immersive theatre. Using javascript and a found algorithm to process green screen this is a proof of concept on how the audience can fully take control of the media and make every viewing of the same media unique.",
+        "stack": ["javaScript"],
+        "liveLink": "",
+        "gitHubLink": "https://www.youtube.com/watch?v=rL9Ly1ZkYYk&ab_channel=elijahwoods",
+        "date": "SEPT 2022",
+        "picLink": "src/assets/FLOAT_ProjectPoster_Apr1-2022.pdf"   
+    }
+    ]    
+}

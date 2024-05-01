@@ -7,7 +7,7 @@
         "liveLink": "https://www.youtube.com/watch?v=Vk5-c_v4gMU&ab_channel=HYBELABELS",
         "gitHubLink": "https://www.youtube.com/watch?v=fDWvOsGM10s&t=282s&ab_channel=%E3%81%99%E3%81%8C%E3%82%8D%E3%81%86",
         "date": "APR 02 2022",
-        "picLink": "/src/assets/FLOAT_ProjectPoster_Apr1-2022.png"
+        "picLink": "./assets/FLOAT_ProjectPoster_Apr1-2022.png"
     },
     {
         "projectName": "Shared",
@@ -16,7 +16,7 @@
         "liveLink": "",
         "gitHubLink": "https://www.youtube.com/watch?v=rL9Ly1ZkYYk&ab_channel=elijahwoods",
         "date": "TBD",
-        "picLink": "/src/assets/FLOAT_ProjectPoster_Apr1-2022.pdf"
+        "picLink": "./assets/FLOAT_ProjectPoster_Apr1-2022.pdf"
     },
     {
         "projectName": "Component Theatre",
@@ -25,7 +25,7 @@
         "liveLink": "",
         "gitHubLink": "https://www.youtube.com/watch?v=rL9Ly1ZkYYk&ab_channel=elijahwoods",
         "date": "SEPT 2022",
-        "picLink": "/src/assets/FLOAT_ProjectPoster_Apr1-2022.pdf"   
+        "picLink": "./assets/FLOAT_ProjectPoster_Apr1-2022.pdf"   
     }
     ]    
 }

@@ -5,7 +5,7 @@ export default function NameCard() {
     <>
       <section className="nameCard">
         <div className="profilePicContainer">
-          <img src="src/assets/profilePic.JPEG" />
+          <img src="./assets/profilePic.JPEG" />
         </div>
         <div className="introCard darkText">
           <h2>Jonathan Vargas</h2>
